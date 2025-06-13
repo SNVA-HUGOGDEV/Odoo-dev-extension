@@ -4,7 +4,7 @@
         <div class="col-3 dev-sidebar"
             t-if="state.isVisible">
             <div class="dev-sidebar-header">
-                <h4>Odoo Dev Tools</h4>
+                <h4><span class="prefix">SNVA</span> Odoo Dev Tools</h4>
                 <button id="close"
                     t-on-click="closeSideBar">close</button>
             </div>

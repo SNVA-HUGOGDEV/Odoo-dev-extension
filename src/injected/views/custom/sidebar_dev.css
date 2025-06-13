@@ -98,15 +98,19 @@
 
 .dev-sidebar-header h4 {
   position: relative;
-  /* Necesario para posicionar el ::after relativo al h4 */
+  /* texto degradado de rojo a azul */
+  background: linear-gradient(0deg, #018ada, #a87b36);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
-.dev-sidebar-header h4::after {
-  content: "By Juuxn";
-  position: absolute;
+.dev-sidebar-header h4 .prefix {
+  content: "Sinova S.A.S";
   bottom: -15px;
   right: -30px;
-  color: #64626260;
+
   font-size: 1rem;
 }
 
